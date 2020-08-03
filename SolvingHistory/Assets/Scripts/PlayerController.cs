@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
 {
     // Reference to the Animator component of the player
     public Animator anim;
+    public float speed = 10.0f;
 
     // Update is called once per frame
     void Update()
@@ -32,5 +33,27 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("vertical", Input.GetAxis("Vertical"));
         // Link the "horizontal" parameter in the animator to the player's horizontal input
         anim.SetFloat("horizontal", Input.GetAxis("Horizontal"));
+        anim = GetComponent<Animator>();
+     if (Input.GetKey(KeyCode.RightArrow))
+     {
+         anim.Play("Walking");
+         transform.position += Vector3.right * speed * Time.deltaTime;
+     }
+     if (Input.GetKey(KeyCode.LeftArrow))
+     {
+         anim.Play("Walking");
+         transform.position += Vector3.left * speed * Time.deltaTime;
+     }
+     if (Input.GetKey(KeyCode.UpArrow))
+     {
+         anim.Play("Walking");
+         transform.position += Vector3.forward * speed * Time.deltaTime;
+     }
+     if (Input.GetKey(KeyCode.DownArrow))
+     {
+         anim.Play("Walking");
+         transform.position += Vector3.back * speed * Time.deltaTime;
+     }
     }
 }
+
