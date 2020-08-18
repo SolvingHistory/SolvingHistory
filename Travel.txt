@@ -1,0 +1,4 @@
+Main Menu = 0
+Kolossi = 1
+Palepafos = 2
+Panagia tis asinou = 3
