@@ -201,7 +201,7 @@ GameObject:
   - component: {fileID: 4507387684852682513}
   m_Layer: 0
   m_Name: DoorPanagiaTisAsinou
-  m_TagString: Untagged
+  m_TagString: Panagia
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -342,9 +342,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Panagia
+  m_text: 'Church
 
-    tis
+    Panagia
+
+    of
 
     Asinou'
   m_isRightToLeft: 0
