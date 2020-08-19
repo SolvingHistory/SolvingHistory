@@ -6,15 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Main Menu/Menu.unity
+    guid: 86cf0cfc5740b0e4fa593b7ab47d14c4
+  - enabled: 1
+    path: Assets/Scenes/Doors Menu/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Kolossi.unity
+    path: Assets/Scenes/Kolossi/Kolossi.unity
     guid: 17563904bed72224ca1ea6ef62a6d1c8
   - enabled: 1
-    path: Assets/Scenes/Palaipafos.unity
+    path: Assets/Scenes/Palaipafos/Palaipafos.unity
     guid: 93ee9a6a9520df442a4bc69da9354b2e
   - enabled: 1
-    path: Assets/Scenes/Panagia_Tis_Assinou.unity
+    path: Assets/Scenes/Panagia_Tis_Assinou/Panagia_Tis_Assinou.unity
     guid: 53f45cba2876c634c8038c6436677c29
   m_configObjects: {}
