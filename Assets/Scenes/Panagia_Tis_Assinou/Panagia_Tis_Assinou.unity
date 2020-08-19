@@ -250,6 +250,19 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &574450422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574450418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 954521d44eb241f2a6ddad3ad9ba3207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _turnSpeed: 3
 --- !u!1 &1041505189
 GameObject:
   m_ObjectHideFlags: 0
@@ -571,15 +584,12 @@ PrefabInstance:
     - target: {fileID: 4806643926716641396, guid: 1af7fed44823cc4499f0e768bb6976c4,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7585211999697551250, guid: 1af7fed44823cc4499f0e768bb6976c4,
+    - target: {fileID: 4806643926716641396, guid: 1af7fed44823cc4499f0e768bb6976c4,
         type: 3}
-      propertyPath: m_Constraints
+      propertyPath: m_CullingMode
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7585211999697551250, guid: 1af7fed44823cc4499f0e768bb6976c4, type: 3}
-    - {fileID: 7585211999697551248, guid: 1af7fed44823cc4499f0e768bb6976c4, type: 3}
-    - {fileID: 7585211999697551254, guid: 1af7fed44823cc4499f0e768bb6976c4, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1af7fed44823cc4499f0e768bb6976c4, type: 3}
