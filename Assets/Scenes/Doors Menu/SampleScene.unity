@@ -2226,6 +2226,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: character
       objectReference: {fileID: 0}
+    - target: {fileID: 7884726584324103547, guid: cc6111ffefc5ad74ab555dec3f7dca9d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884726584324103547, guid: cc6111ffefc5ad74ab555dec3f7dca9d,
+        type: 3}
+      propertyPath: m_CullingMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8084809523899087846, guid: cc6111ffefc5ad74ab555dec3f7dca9d,
         type: 3}
       propertyPath: m_LocalPosition.x
