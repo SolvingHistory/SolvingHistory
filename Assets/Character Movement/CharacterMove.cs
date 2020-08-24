@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class CharacterMove : MonoBehaviour
 {
@@ -32,33 +31,5 @@ public class CharacterMove : MonoBehaviour
 
         _characterController.Move(_moveDirection);
     }
-
-    void OnCollisionEnter(Collision collision)
-    {
-       
-        if(collision.gameObject.tag == "Kolossi")               
-            {Invoke("LoadKolossi", 1f);}
-        
-        if(collision.gameObject.tag == "Palepafos")                
-            {Invoke("LoadPalepafos", 1f);}
-        if(collision.gameObject.tag == "Panagia")               
-            {Invoke("LoadPanagia", 1f);}
-        
-    }
-    private void LoadKolossi()
-    {
-        SceneManager.LoadScene(1);
-    }
-
-    private void LoadPalepafos()
-    {
-        SceneManager.LoadScene(2);
-    }
-
-    private void LoadPanagia()
-    {
-        SceneManager.LoadScene(3);
-    }
-
     private bool PlayerJumped => _characterController.isGrounded && Input.GetKey(KeyCode.Space);
 }
