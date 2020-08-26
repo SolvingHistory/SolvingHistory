@@ -26,7 +26,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -68,7 +68,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
@@ -108,8 +108,314 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
-    skeleton: []
+    human:
+    - boneName: male4_exported:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: male4_exported:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: jump(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:Hips
+      parentName: jump(Clone)
+      position: {x: -0.24378534, y: 38.599346, z: -0.68248916}
+      rotation: {x: -0.031400867, y: 0.046542928, z: 0.027128097, w: 0.998054}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:Spine
+      parentName: male4_exported:Hips
+      position: {x: -0, y: 4.460742, z: -0.21875699}
+      rotation: {x: 0.0046457853, y: -0.012276853, z: -0.020385599, w: 0.99970603}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:Spine1
+      parentName: male4_exported:Spine
+      position: {x: -0, y: 5.210458, z: 0}
+      rotation: {x: 0.010091133, y: -0.0021571433, z: -0.013701443, w: 0.9998529}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:Spine2
+      parentName: male4_exported:Spine1
+      position: {x: -0, y: 5.9548087, z: 0}
+      rotation: {x: 0.009868057, y: -0.0023510554, z: -0.013739172, w: 0.9998542}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:Neck
+      parentName: male4_exported:Spine2
+      position: {x: -0, y: 6.699154, z: 0}
+      rotation: {x: 0.061974376, y: 0.00040307434, z: -0.0025697816, w: 0.9980744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:Head
+      parentName: male4_exported:Neck
+      position: {x: -0, y: 2.7949169, z: 1.067123}
+      rotation: {x: 0.049033597, y: 0.0010815507, z: -0.0042451564, w: 0.9987875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:HeadTop_End
+      parentName: male4_exported:Head
+      position: {x: -0, y: 9.200767, z: 3.512933}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:LeftShoulder
+      parentName: male4_exported:Spine2
+      position: {x: -2.9548059, y: 5.66166, z: -0.045682997}
+      rotation: {x: 0.6435558, y: -0.37359777, z: 0.49535754, w: 0.44819805}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:LeftArm
+      parentName: male4_exported:LeftShoulder
+      position: {x: -0, y: 6.232998, z: 0}
+      rotation: {x: -0.09208401, y: -0.22864358, z: 0.12491465, w: 0.96106136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:LeftForeArm
+      parentName: male4_exported:LeftArm
+      position: {x: -0, y: 9.848964, z: 0}
+      rotation: {x: 0.00039891354, y: 0.00024837977, z: -0.012728837, w: 0.9999189}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:LeftHand
+      parentName: male4_exported:LeftForeArm
+      position: {x: -0, y: 12.352235, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:RightShoulder
+      parentName: male4_exported:Spine2
+      position: {x: 2.9548059, y: 5.662169, z: -0.056051}
+      rotation: {x: 0.60185117, y: 0.42660415, z: -0.5029868, w: 0.45032024}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:RightArm
+      parentName: male4_exported:RightShoulder
+      position: {x: -0, y: 6.232998, z: 0}
+      rotation: {x: -0.094880395, y: 0.2902654, z: -0.11400181, w: 0.94538206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:RightForeArm
+      parentName: male4_exported:RightArm
+      position: {x: -0, y: 9.851203, z: 0}
+      rotation: {x: -0.0023912338, y: -0.00038766855, z: 0.031030536, w: 0.99951553}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:RightHand
+      parentName: male4_exported:RightForeArm
+      position: {x: -0, y: 12.326582, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:LeftUpLeg
+      parentName: male4_exported:Hips
+      position: {x: -4.504671, y: -2.4810228, z: 0.666258}
+      rotation: {x: -0.1373032, y: 0.065409556, z: 0.9848977, w: 0.08274036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:LeftLeg
+      parentName: male4_exported:LeftUpLeg
+      position: {x: -0, y: 17.623936, z: 0}
+      rotation: {x: -0.12787478, y: 0.013648525, z: -0.020587403, w: 0.99148273}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:LeftFoot
+      parentName: male4_exported:LeftLeg
+      position: {x: -0, y: 14.932641, z: 0}
+      rotation: {x: 0.5219042, y: 0.059023466, z: 0.045741297, w: 0.84972936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:LeftToeBase
+      parentName: male4_exported:LeftFoot
+      position: {x: -0, y: 7.16435, z: 0}
+      rotation: {x: 0.30668503, y: -0.0062281685, z: 0.0032772897, w: 0.951785}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:LeftToe_End
+      parentName: male4_exported:LeftToeBase
+      position: {x: -0, y: 2.8407638, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:RightUpLeg
+      parentName: male4_exported:Hips
+      position: {x: 4.504671, y: -2.4810228, z: 0.619064}
+      rotation: {x: 0.089281745, y: -0.050879765, z: 0.99447167, w: 0.02158932}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:RightLeg
+      parentName: male4_exported:RightUpLeg
+      position: {x: -0, y: 17.624624, z: 0}
+      rotation: {x: -0.019527953, y: -0.08461859, z: 0.011512406, w: 0.99615556}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:RightFoot
+      parentName: male4_exported:RightLeg
+      position: {x: -0, y: 14.928181, z: 0}
+      rotation: {x: 0.52689934, y: -0.032256294, z: -0.016317178, w: 0.8491586}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:RightToeBase
+      parentName: male4_exported:RightFoot
+      position: {x: -0, y: 7.028306, z: 0}
+      rotation: {x: 0.3314164, y: 0.006586193, z: -0.004208841, w: 0.94345224}
+      scale: {x: 1, y: 1, z: 1}
+    - name: male4_exported:RightToe_End
+      parentName: male4_exported:RightToeBase
+      position: {x: -0, y: 2.8217068, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -120,13 +426,13 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
