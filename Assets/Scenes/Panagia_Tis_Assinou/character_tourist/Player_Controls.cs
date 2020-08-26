@@ -54,7 +54,7 @@ public class Player_Controls : MonoBehaviour
             anim.SetBool("isIdle", false);
             anim.SetBool("isRunning", false);
         }
-        else if (Input.GetKey(KeyCode.W) && Input.GetKey("left shift"))
+        else if (Input.GetKey(KeyCode.C))
         {
             anim.SetBool("isWalking", false);
             anim.SetBool("isIdle", false);
